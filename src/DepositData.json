@@ -1,0 +1,86 @@
+{
+    "active": [
+        {
+            "property": {
+                "address": {
+                    "street": "771 Lost Round",
+                    "city": "Sacramento",
+                    "state": "CA"
+                },
+                "imageUrl": "lostround.png"
+            },
+            "moveInDate": "25 February 2020",
+            "rent": 3000.00,
+            "deposit": {
+                "amount": 9000.00,
+                "type": "First, Last & Security"
+            },
+            "status": {
+                "message": "Awaiting Bank Processing",
+                "level": 2 
+            }
+        },
+        {
+            "property": {
+                "address": {
+                    "street": "1491 Jagged Arbor",
+                    "city": "San Antonio",
+                    "state": "TX"
+                },
+                "imageUrl": "jaggedarbor.png"
+            },
+            "moveInDate": "12 March 2020",
+            "rent": 2300.00,
+            "deposit": {
+                "amount": 4600.00,
+                "type": "First & Last"
+            },
+            "status": {
+                "message": "Payment Processed",
+                "level": 3 
+            }
+        }
+    ],
+    "closed": [
+        {
+            "property": {
+                "address": {
+                    "street": "1694 Noble Cape",
+                    "city": "Las Vegas",
+                    "state": "NV"
+                },
+                "imageUrl": "noblecape.png"
+            },
+            "moveInDate": "3 February 2020",
+            "rent": 3300.00,
+            "deposit": {
+                "amount": 6900.00,
+                "type": "Complete"
+            },
+            "status": {
+                "message": "Awaiting Bank Processing",
+                "level": 3 
+            }
+        },
+        {
+            "property": {
+                "address": {
+                    "street": "1141 Tawny Maze",
+                    "city": "Raleigh",
+                    "state": "NC"
+                },
+                "imageUrl": "tawnymaze.png"
+            },
+            "moveInDate": "12 January 2020",
+            "rent": 2500.00,
+            "deposit": {
+                "amount": 7500.00,
+                "type": "First, Last & Security"
+            },
+            "status": {
+                "message": "Expired: No Payment Received",
+                "level": 1 
+            }
+        }
+    ]
+}
